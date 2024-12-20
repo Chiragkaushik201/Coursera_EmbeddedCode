@@ -65,13 +65,13 @@ UCHAR find_minimum(UCHAR* ptr, int size);
 * @brief This function prints Mean value, Median value, Maximum value and Minimum value of the array 
  *
  * @param median : unsigned char: median value to be printed
- * @param mean : unsigned char: mean value to be printed
+ * @param mean : float: mean value to be printed
  * @param max : unsigned char: max value to be printed
  * @param min : unsigned char: min value to be printed
  *
  * @return retVal: void 
  */
-void print_statistics(UCHAR median, UCHAR mean, UCHAR max, UCHAR min);
+void print_statistics(UCHAR median, float mean, UCHAR max, UCHAR min);
 
 /**
  * * @brief This function sorts the array in decreasing order
