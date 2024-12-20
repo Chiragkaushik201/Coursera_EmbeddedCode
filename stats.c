@@ -19,7 +19,39 @@
 #include "stats.h"
 
 
-void main() 
-{
+/* Size of the Data Set */
+#define SIZE (40)
+
+void main() {
+
 
 }
+
+UCHAR find_median(UCHAR* ptr, int size)
+{
+}
+
+void sort_array(UCHAR* ptr,int size)
+{
+}
+
+float find_mean(UCHAR* ptr, int size)
+{
+}
+
+UCHAR find_maximum(UCHAR* ptr, int size)
+{
+}
+
+UCHAR find_minimum(UCHAR* ptr, int size)
+{
+}
+
+void print_statistics(UCHAR median, UCHAR mean, UCHAR max, UCHAR min)
+{
+}
+
+void print_array(UCHAR* ptr, int size)
+{
+}
+
